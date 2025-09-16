@@ -4,11 +4,10 @@ const config = {
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: "coverage",
-  coverageProvider: "v8",
   testEnvironment: "node",
-  transform: {
-    '.+\\.ts$': 'ts-jest  '
-  },
+  coverageProvider: "v8",
+  
+  preset: 'ts-jest', 
 };
 
 module.exports = config;
