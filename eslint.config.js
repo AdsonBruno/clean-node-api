@@ -16,7 +16,9 @@ export default [
       '@typescript-eslint/no-unsafe-member-access': 'warn',
       '@typescript-eslint/strict-boolean-expressions': 'off',
       '@typescript-eslint/method-signature-style': ['error', 'method'],
-      '@typescript-eslint/no-unsafe-argument': 'off'
+      '@typescript-eslint/no-unsafe-argument': 'off',
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/prefer-destructuring': 'off'
     },
   },
   {
